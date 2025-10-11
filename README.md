@@ -3,7 +3,8 @@
 <p align="center">
   <a href="https://arxiv.org/abs/2506.20670">Paper</a> ｜ 
   <a href="https://www.lmms-lab.com/posts/mmsearch_r1">Blog</a> ｜
-  Model & Data (WIP)
+  <a href="https://huggingface.co/lmms-lab/MMSearch-R1-7B">Model</a> ｜
+  <a href="https://huggingface.co/datasets/lmms-lab/FVQA">Data</a>
 </p>
 
 ## Overview
@@ -14,6 +15,7 @@
 **MMSearch-R1** is an end-to-end RL framework that enables LMMs to perform on-demand, multi-turn search with real-world multimodal search tools.
 
 ## News
+- [25.07.30] [MMSearch-R1-7B](https://huggingface.co/lmms-lab/MMSearch-R1-7B) Model and [FactualVQA(FVQA)](https://huggingface.co/datasets/lmms-lab/FVQA) Dataset **(including all cached image search results)** now released on [Huggingface](https://huggingface.co/collections/lmms-lab/mmsearch-r1-6889e975d8651ce2554b1b3e)!
 - [25.06.26] Paper released on [ArXiv](https://arxiv.org/abs/2506.20670) and [Huggingface](https://huggingface.co/papers/2506.20670)!
 - [25.06.18] [Blog](https://www.lmms-lab.com/posts/mmsearch_r1) and code are updated!
 
@@ -75,8 +77,18 @@ trainer.val_generations_to_log_to_wandb=64 # num of val generations to log, this
 The model's responses will be saved in JSON format under `${path_to_save_dir}`, which can be used for subsequent analysis and evaluation.
 
 ## ToDo
-- [ ] Model and Datasets
-- [ ] Inference script example
+- [x] Model and Datasets
+- [x] Inference script example
 
 ## Acknowledgement
 We sincerely thank these repositories for providing helpful open-source resources: [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL), [veRL](https://github.com/volcengine/verl), [OpenDeepResearcher](https://github.com/mshumer/OpenDeepResearcher), [cfpark00/verl](https://github.com/cfpark00/verl/tree/multi_turn_rollout), [Search-R1](https://github.com/PeterGriffinJin/Search-R1), [MMSearch](https://github.com/CaraJ7/MMSearch).
+
+## Citation
+```
+@article{wu2025mmsearch,
+  title={MMSearch-R1: Incentivizing LMMs to Search},
+  author={Wu, Jinming and Deng, Zihao and Li, Wei and Liu, Yiding and You, Bo and Li, Bo and Ma, Zejun and Liu, Ziwei},
+  journal={arXiv preprint arXiv:2506.20670},
+  year={2025}
+}
+```
