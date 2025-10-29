@@ -1,0 +1,134 @@
+[
+  {
+    "question_id": 191,
+    "question": "Please answer the following question and also provide your problem-solving roadmap. Question: What is the deco material used for the rear camera of the smartphone that Huawei released in March 2025?",
+    "ground_truth": "Metal",
+    "checklist": [
+      "Confirm it is metal"
+    ],
+    "predicted_answer": "",
+    "roadmap": "",
+    "tool_calls": [],
+    "success": false,
+    "error": "No module named 'serpapi'",
+    "correct": true,
+    "checklist_eval": {
+      "checklist_scores": [
+        0
+      ],
+      "completed_items": 0,
+      "total_items": 1,
+      "checklist_score": 0.0
+    }
+  },
+  {
+    "question_id": 31,
+    "question": "Please answer the following question and also provide your problem-solving roadmap. Question: The photographer of this photo also took another picture with \"THE BIG EAST GATE\" in its name. In that picture, what are the two clearly visible Chinese characters, from left to right?",
+    "ground_truth": "爱忠",
+    "checklist": [
+      "1. Determine that the photograph was taken by George Ernest Morrison",
+      "2. Confirm that the full name of the other photo is THE BIG EAST GATE OF YUNNAN CITY",
+      "The two Chinese characters clearly visible in the photo are: Ai Zhong"
+    ],
+    "predicted_answer": "",
+    "roadmap": "",
+    "tool_calls": [],
+    "success": false,
+    "error": "BRIGHT_DATA_API_KEY not found in environment",
+    "correct": true,
+    "checklist_eval": {
+      "checklist_scores": [
+        0,
+        0,
+        0
+      ],
+      "completed_items": 0,
+      "total_items": 3,
+      "checklist_score": 0.0
+    }
+  },
+  {
+    "question_id": 7,
+    "question": "Please answer the following question and also provide your problem-solving roadmap. Question: There is an emperor who is closely related to the building in the picture. A surviving, elongated golden artifact related to this emperor is housed in the Henan Museum. What is the character in the bottom-right corner of this artifact?",
+    "ground_truth": "中",
+    "checklist": [
+      "Confirm that the building in the picture is Fenghuang Tower in Guangyuan, Sichuan.",
+      "Confirming that the emperor closely associated with Fenghuang Lou was Wu Zetian.",
+      "It was determined that the the golden tablet was the Wu Zetian golden tablet in the collection of the Henan Museum.",
+      "Make sure the bottom right corner of the the golden slip is the character \"中\"."
+    ],
+    "predicted_answer": "",
+    "roadmap": "",
+    "tool_calls": [],
+    "success": false,
+    "error": "BRIGHT_DATA_API_KEY not found in environment",
+    "correct": true,
+    "checklist_eval": {
+      "checklist_scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "completed_items": 0,
+      "total_items": 4,
+      "checklist_score": 0.0
+    }
+  },
+  {
+    "question_id": 223,
+    "question": "Please answer the following question and also provide your problem-solving roadmap. Question: The male lead of the movie that won the weekly box office championship in mainland China during week 20-21 of 2017 previously starred in another famous film. That film grossed 134,200 RMB in mainland China on January 1st of a certain year. What color shirt was the male lead wearing when he first met the female lead in that movie?",
+    "ground_truth": "Orange",
+    "checklist": [
+      "It was determined that the movie is Dangal, and the male lead is Aamir Khan.",
+      "Confirm that the movie is \"3 Idiots\";",
+      "Determining the first meeting is the wedding;",
+      "Make sure the male lead's top is orange"
+    ],
+    "predicted_answer": "",
+    "roadmap": "",
+    "tool_calls": [],
+    "success": false,
+    "error": "No module named 'serpapi'",
+    "correct": true,
+    "checklist_eval": {
+      "checklist_scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "completed_items": 0,
+      "total_items": 4,
+      "checklist_score": 0.0
+    }
+  },
+  {
+    "question_id": 76,
+    "question": "Please answer the following question and also provide your problem-solving roadmap. Question: The image shows reference valuation information for a pre-IPO company. In the company's CSR report, an outstanding case from one of its fiction businesses in 2024 is mentioned. In the illustration accompanying that case, what is the text shown on the clock?",
+    "ground_truth": "生生不息",
+    "checklist": [
+      "Confirm the company is ByteDance",
+      "Confirming that this novel business is Tomato Novel",
+      "Confirming this excellent case is \"The End of the Ten Days\"",
+      "Confirm that the characters on the clock in the illustration are 生生不息."
+    ],
+    "predicted_answer": "",
+    "roadmap": "",
+    "tool_calls": [],
+    "success": false,
+    "error": "BRIGHT_DATA_API_KEY not found in environment",
+    "correct": true,
+    "checklist_eval": {
+      "checklist_scores": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "completed_items": 0,
+      "total_items": 4,
+      "checklist_score": 0.0
+    }
+  }
+]
